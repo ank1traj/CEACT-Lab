@@ -8,7 +8,7 @@ $(window).on('load', function() {
 		Preloder
 	--------------------*/
 	$(".loader").fadeOut(); 
-	$("#preloder").delay(400).fadeOut("slow");
+	$("#preloder").delay(200).fadeOut("slow");
 
 });
 
@@ -58,7 +58,7 @@ $(window).on('load', function() {
 	/*------------------
 		Counter
 	--------------------*/
-	$(".counter").countdown("2018/09/17", function(event) {
+	$(".counter").countdown("2018/09/18", function(event) {
 		$(this).html(event.strftime("<div class='counter-item'><h4>%D</h4>Days</div>" + "<div class='counter-item'><h4>%H</h4>hours</div>" + "<div class='counter-item'><h4>%M</h4>Mins</div>" + "<div class='counter-item'><h4>%S</h4>secs</div>"));
 	});
 
